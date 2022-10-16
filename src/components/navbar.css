@@ -1,0 +1,28 @@
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 1.9rem;
+    padding-right: 4rem;
+}
+.navbar-icon{
+    color:#FF577F ;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.navbar-icon:hover{
+    color: #5F9DF7;
+    transform: scale(1.2);
+}
+
+@media (max-width:460px){
+    .nav-list{
+        padding-left:15rem;
+    }
+}
+
+@media screen and (max-width:767px) and (min-width:461px){
+    .nav-list{
+        margin-left: 7rem;
+    }
+}

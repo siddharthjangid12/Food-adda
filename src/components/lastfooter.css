@@ -1,0 +1,22 @@
+.last-footer{
+    height: 15vh;
+    width: 100%;
+    background-color: #FF577F;
+    border-top: 2px solid #5F9DF7;
+}
+.last-footer h4{
+    font-size: 17px;
+    font-weight: lighter;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+.last-footer h3{
+    font-size: 17px;
+    font-weight: lighter;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 1.3rem;
+}

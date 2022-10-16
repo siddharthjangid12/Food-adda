@@ -1,0 +1,160 @@
+.about{
+    height: 200vh;
+    width: 100%;
+}
+.about-list{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 3rem 3rem;
+    margin-left: 11rem;
+    gap: 2rem;
+}
+.about-work-image{
+    height: 300px;
+    width: 300px;
+    border: 2px solid #FF577F;
+    border-radius: 50%;
+    margin-left: 4rem;
+}
+.about h3{
+    text-align: center;
+    font-size: 35px;
+    text-transform: capitalize;
+    color: #FF577F;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+}
+.about i{
+    background-color: #FF577F;
+    color: white;
+    padding: 0.7rem 0.7rem;
+    border-radius: 30px;
+    font-size: 35px;
+    margin-right: 0.7rem;
+}
+.about p{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #5F9DF7;
+    max-width: 50rem;
+    margin-left: 16rem;
+    text-align: center;
+}
+.about h2{
+    text-align: center;
+    font-size: 34px;
+    text-transform: capitalize;
+    color: #FF577F;
+    margin-top: 6rem;
+    margin-left: 4rem;
+}
+.about-list h4{
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #5F9DF7;
+    margin-left: 3.5rem;
+}
+
+
+@media (max-width:460px){
+    .about{
+        height: auto;
+        width: 100%;
+    }
+    .about h3{
+       margin-left: 26rem;
+       text-align: center;
+    }
+    .about i{
+     margin-left: 1.3rem;
+    }
+    .about p{
+      text-align: center;
+      margin-right: -13rem;
+    }
+    .about h2{
+        margin-right: -28rem;
+    }
+    .about-list{
+        margin-left: 5rem;
+    }
+}
+
+@media (max-width:375px){
+    .about p{
+        margin-right: -20rem;
+    }
+    .about h2{
+        margin-right: -34rem;
+    }
+    .about h3{
+        margin-left: 27rem;
+    }
+    .about-list{
+        margin-left: 6rem;
+    }
+}
+
+@media (max-width:320px){
+    .about h2{
+        margin-right: -37rem ;
+    }
+    .about h3{
+        margin-left: 26.5rem;
+    }
+    .about p{
+        margin-right: -21rem;
+    }
+}
+
+@media screen and (max-width:767px) and (min-width:461px){
+    .about{
+        height: auto;
+    }
+    .about h3{
+        margin-left: 25rem;
+    }
+    .about i{
+        margin-left: 1.4rem;
+    }
+    .about p{
+        margin-right: -20rem;
+        padding-right: 9rem;
+    }
+    .about h2{
+        margin-right: -27rem;
+    }
+    .about-list{
+        margin-left: 5rem;
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px){
+    .about h3{
+        margin-left: 1rem;
+    }
+    .about p{
+        margin-right: 12rem;
+    }
+    .about-list{
+        margin-left: 7rem;
+    }
+    .about{
+        height: auto;
+    }
+}
+
+@media (min-width:1024px){
+    .about h3{
+        margin-left: 1rem ;
+    }
+    .about p{
+        margin-right: 12rem;
+    }
+    .about-list{
+        margin-left: 7rem;
+    }
+    .about{
+        height: auto;
+    }
+}

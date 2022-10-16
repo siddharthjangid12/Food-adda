@@ -1,0 +1,174 @@
+.food{
+    height: 470vh;
+    width: 100%;
+}
+.food-image{
+    height: 250px;
+    width: 250px;
+    border-radius: 30px;
+    margin-left: 7rem;
+    border: 3px solid #FF577F;
+    margin-top: 4rem;
+}
+.food-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 3rem 3rem;
+}
+.food-list h4{
+  font-size: 23px;
+  font-weight: bold;
+  color: #FF577F;
+  text-transform: capitalize;
+  text-align: center;
+}
+.food-list span{
+   margin-left: 12rem;
+}
+.food-list i{
+    font-size: 13px;
+    color: #FF577F;
+}
+.food-list p{
+    font-size: 17px;
+    color: #5F9DF7;
+    font-weight: lighter;
+    text-align: center; 
+    margin-bottom: 1rem;  
+}
+.food-btn{
+    background-color: #FF577F;
+    color: white;
+    font-size: 1.1rem;
+    padding: 0.7rem 0.7rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 10rem;
+    transition: all 0.3s ease-in-out;
+}
+.food-btn:hover{
+    background-color: #5F9DF7;
+    transform: scale(1.2);
+}
+.food h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #FF577F;
+   text-align: center;
+   text-transform: capitalize;
+   margin-top: 4rem;
+}
+
+@media (max-width:460px){
+    .food h2{
+        margin-right: -36rem;
+    }
+    .food{
+        width: 100%;
+        height: auto;
+    }
+    .food-image{
+        margin-left: 2.8rem;
+    }
+    .food-list h4{
+        margin-left: 1rem;
+    }
+    .food-list span{
+        margin-left: 7.8rem;
+    }
+    .food-list p{
+       margin-left: 2rem;
+       margin-bottom: 2rem;
+    }
+    .food-btn{
+        margin-left: 6.3rem;
+    }
+}
+
+@media (max-width:375px){
+    .food-list{
+        padding-left: 2rem;
+    }
+    .food{
+        height: auto;
+    }
+    .food-btn{
+        margin-left: 6.5rem ;
+    }
+    .food-list p{
+        margin-left: 3rem;
+    }
+    .food-list span{
+        margin-left: 8.3rem;
+    }
+    .food h4{
+        margin-left: 2rem;
+    }
+}
+
+@media (max-width:320px){
+    .food{
+        height: auto;
+    }
+}
+
+@media screen and (max-width:767px) and (min-width:461px){
+    .food-list{
+        padding-left: 0rem;
+    }
+    .food{
+        height: auto;
+    }
+    .food-image{
+        margin-left: 2rem;
+    }
+    .food-list span{
+       margin-left: 7rem;
+       margin-bottom: 1rem;
+    }
+    .food-list p{
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+    }
+    .food-btn{
+        margin-left: 5rem;
+    }
+    .food-list h4{
+        margin-left: 0.5rem;
+    }
+    .food h2{
+        margin-right: -25rem;
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px){
+    .food-list{
+        padding-left: 0rem;
+    }
+    .food-list h4{
+      margin-left: 4rem;
+    }
+    .food-list p{
+        margin-left:3.5rem;
+        margin-bottom: 2rem;
+    }
+    .food{
+        height: auto;
+    }
+}
+
+@media (min-width:1024px){
+    .food-list{
+        padding-left: 0rem;
+    }
+    .food-list h4{
+        margin-left: 4rem;
+    }
+    .food-list p{
+        margin-left:3.5rem;
+        margin-bottom: 2rem;
+    }
+    .food{
+        height: auto;
+    }
+}
